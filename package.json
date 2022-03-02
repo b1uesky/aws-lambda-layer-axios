@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "zip": "npm install && mkdir nodejs && cp -r node_modules nodejs && zip -r axios.zip nodejs && rm -rf nodejs"
+  },
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
