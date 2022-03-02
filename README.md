@@ -1,5 +1,8 @@
 # aws-lambda-layer-axios
-Create a zip file of the `axios` package for AWS Lambda Layer
+Create a zip file of the different package for AWS Lambda Layer:
 ```
-npm run zip
+npm run zip:axios
+```
+```
+npm run zip:winston
 ```
